@@ -4,36 +4,28 @@
 <html>  
   <head>
     <meta charset="utf-8">
-    <link href="https://github.com/Juansepo13/templates/blob/main/prueba_templates/css/styles.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
-    <script src="https://github.com/Juansepo13/templates/blob/main/prueba_templates/js/behavior.js"></script>
-    <title>CrediRisk</title>
-    <style>
-      body {
-        display: flex;
-        flex-direction: column;
-      }
-      header {
-        flex-direction: column;
-      }
-      main {
-        display: flex;
-        flex-direction: row;
-        flex: auto;
-      }
-      article{
-        flex: 2;
-        overflow-y: auto;
-      }
-      aside {
-        flex: 1;
-        overflow-y: auto;
-      }
-    </style>  
+    <link href="prueba_templates/css/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="templates/prueba_templates/css.css" rel="stylesheet">
+    <script>
+      document.addEventListener("DOMContentLoaded", function(event) {
+      alert('Welcome to CreditRisk Center');
+      document.getElementById("smart_thumbnail");
+      var thumbnailElement = document.getElementById("smart_thumbnail");
+      thumbnailElement.addEventListener("click", function() {
+      alert("hello Dude");
+      });
+      });
+    </script>
+    <title>CreditRisk</title>
+    
   </head>
   <body class="works_on_smartphone" >
     <header>
-      <center><h1><strong>CrediRisk</strong></h1></center>
+      <style>
+        vertical-align: middle;
+      </style>
+      <center><h1><strong>CreditRisk</strong></h1></center>
+      <img src="https://cdn.worldvectorlogo.com/logos/c-risk.svg"width="100" height="80"/>
     </header>
     <nav>
       <ul>
@@ -58,7 +50,7 @@
     <ul>
       <li><a href="link_main">Go main<em> Tweets</em>
 	  <br><img src=""width="250" height="175"/></br></a></li> <!-- Imagen link main-->
-      <li><a href="https://www.reddit.com/user/Obiwan_Cryptos"><img src="https://i.pinimg.com/originals/6c/fc/94/6cfc9417bff0029487e37849899f9f8b.jpg"width="600" height="200"/></a>
+      <li><a href="link_image"width="600" height="200"/></a>
 	  <br>Go Reddit</li>
     </ul>
       </article>
@@ -88,13 +80,6 @@
       <p>By for Cohort 16 Authors <a href="Link_Authors" target="_blank">Nombre para el link de authos</a>
     </footer> 
     <style>
-      body {
-        heigh:1000px;
-        background-image: url("https://isenacode.com/wp-content/uploads/2021/07/iphone-wallpapers-fondo-pantalla-2021-s28-1.jpg");
-        background-repeat:no-repeat;
-        background-position: center center;
-        background-attachment: fixed;
-      }
     </style>
   </body>
 </html>

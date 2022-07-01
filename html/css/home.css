@@ -1,43 +1,40 @@
-margin: 2px 1em 0 auto;
 body {
     display: flex;
     flex-direction: column;
-    color : white;
+    color: blue
     width:150px;
     margin:10px 50px;
     padding:20px;
     font-size:italic;
     color:#000;
-    heigh:1000px;
-    weigth:2000px;
     background-repeat:no-repeat;
     background-position: center;
-    background-attachment: ;
-    background-color: #888281;
+    background-color: rgba(13, 181, 227, 0.354);
 }
 header {
-    vertical-align: middle;
     flex-direction: column;
-    color : white;
+    color: red;
+    vertical-align: middle;
+    flex-grow:1
+}
+header, #logo {
+    align-items:center;
+    margin-left: 800;
+    margin-left: 2;
 }
 main {
     display: flex;
     flex-direction: row;
     flex: auto;
-    color : white;
+    color: yellowgreen
 }
 article{
     flex: 2;
     overflow-y: auto;
-    color : white;
+    color: darkviolet
 }
 aside {
     flex: 1;
     overflow-y: auto;
-    color : white;
-}
-footer {
-    flex: 1;
-    overflow-y: auto; 
-    color: white;
+    color: green
 }
